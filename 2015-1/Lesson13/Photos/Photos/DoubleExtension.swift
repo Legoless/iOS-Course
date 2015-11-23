@@ -7,3 +7,19 @@
 //
 
 import Foundation
+import UIKit
+
+extension Double {
+    
+    var radians : Double {
+        get {
+            return self * M_PI / 180.0
+        }
+    }
+    
+    var degrees : Double {
+        get {
+            return self * 180.0 / M_PI
+        }
+    }
+}
